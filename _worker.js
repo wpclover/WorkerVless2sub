@@ -10,12 +10,24 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	'https://raw.githubusercontent.com/wpclover/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
 let addressesnotls = [
+	"yx.887141.xyz",
+	"freeyx.cloudflare88.eu.org",
+	"8.889288.xyz",
+	"cfip.1323123.xyz",
+	"cf.515188.xyz",
+	"cf-st.annoy.eu.org",
+	"achk.cloudflarest.link",
+	"cf.0sm.com",
+	"cnamefuckxxs.yuchen.icu",
+	"cf.877771.xyz",
+	"cf.345673.xyz",
+	'oracle.gitgoogle.com#官方优选域名',
 	'www.visa.com.sg#官方优选域名',
 	'www.wto.org:8080#官方优选域名',
 	'www.who.int:8880#官方优选域名',
@@ -38,8 +50,23 @@ let link = '';
 let edgetunnel = 'ed';
 let RproxyIP = 'false';
 let proxyIPs = [//无法匹配到节点名就随机分配以下ProxyIP域名
-	'proxyip.multacom.fxxk.dedyn.io',
-	'proxyip.vultr.fxxk.dedyn.io',
+//	'162.159.192.230:4500',
+//	'162.159.192.91:4500',
+//	'162.159.193.2:4500',
+//	'162.159.195.153:4500,
+//	'162.159.195.214:4500',
+//	'162.159.195.2:4500',
+//	'162.159.195.102:4500',
+//	'162.159.195.94:4500',
+//	'162.159.192.44:4500',
+//	'162.159.195.127:4500',
+//	'162.159.192.6:4500',
+//	'162.159.195.140:4500',
+//	'162.159.195.206:4500',
+//	'162.159.193.5:4500',
+//	'162.159.192.1:4500',
+//	'proxyip.multacom.fxxk.dedyn.io',
+//	'proxyip.vultr.fxxk.dedyn.io',
 ];
 let CMproxyIPs = [
 	//'proxyip.aliyun.fxxk.dedyn.io:HK',//匹配节点名, 有HK就分配该ProxyIP域名
