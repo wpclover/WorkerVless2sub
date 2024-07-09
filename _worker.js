@@ -5,7 +5,15 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'47.242.36.78:2053#HK-WPC',
+	'm1.cdn.totapp.com:2053#HK节点1',
+	'm2cdn.totapp.com:2053#HK节点2',
+	'm3.cdn.totapp.com:2053#HK节点3',
+	'm4.cdn.totapp.com:2053#HK节点4',
+	'm5.cdn.totapp.com:2053#HK节点5',
+	'm6.cdn.totapp.com:2053#HK节点6',
+	'm7.cdn.totapp.com:2053#HK节点7',
+	'm8.cdn.totapp.com:2053#HK节点8',
+	'm9.cdn.totapp.com:2053#HK节点9',
 ];
 
 // 设置优选地址api接口
